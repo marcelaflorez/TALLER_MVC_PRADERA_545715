@@ -1,0 +1,70 @@
+/*miestilo.css*/
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+	header{
+	display:block;
+}
+
+h1{
+	text-shadow: rgb(0,0,150) 3px 3px 4px;
+	font-family:Tempus Sans ITC,sans-serif;
+	font-size: 40pt;
+	color: purple;
+}
+
+body{
+	text-align: center;
+	background: #ff9999;
+}
+
+#baseglobal{
+	width: 85%;
+	background: white;
+}
+
+#encabezado{
+	background: -webkit-linear-gradient(top,pink,gray);
+	border: 2px solid blue;
+	padding: 8px;
+	-moz-border-radius: 20px 40px 20px 40px;
+	-webkit-border-radius: 20px 40px 20px 40px;
+	border-radius: 20px 40px 20px 40px;
+	margin-bottom: 20px;
+
+	-moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	box-shadow: rgb(150,150,150) 5px 5px 10px;
+}
+
+h2{
+	font-family: Chiller;
+	font-size: 30pt;
+	text-align: center;
+}
+
+h3{
+	font-family: jokerman;
+	font-size: 20pt;
+	text-align: center;
+}
+h4{
+	text-shadow: rgb(0,0,150) 2px 2px 3px;
+	font-family: MV Boli;
+	font-size: 15pt;
+	color: black;
+}
+
+#pie{
+	clear: both;
+	background:-webkit-linear-gradient(top,#ff9999,gray);
+	border: 2px solid blue;
+	padding: 15px;
+	height: 10px;
+	font: italic 20redpx verdana, sans-serif;
+	-moz-border-radius: 20px 40px 20px 40px;
+	-webkit-border-radius: 20px 40px 20px 40px;
+	border-radius: 20px 40px 20px 40px; 
+
+}
